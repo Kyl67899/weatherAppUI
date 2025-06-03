@@ -172,14 +172,6 @@ body {
   justify-content: center;
 }
 
-.house-placeholder {
-  width: 12rem;
-  height: 8rem;
-  background: url("/placeholder.svg?height=128&width=192") center/contain
-    no-repeat;
-  opacity: 0.9;
-}
-
 .forecast-tabs {
   display: flex;
   justify-content: center;
@@ -439,7 +431,7 @@ body {
 
 @media (min-width: 1024px) {
   .weather-container {
-    max-width: 600px;
+    max-width: 445px;
   }
 
   .location {
